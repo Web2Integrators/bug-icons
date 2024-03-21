@@ -40,6 +40,7 @@ export default defineConfig(({ command, mode }): UserConfig => {
             external: Object.keys(dependencies),
           }
         : undefined,
+    
     server: {
       headers: {
         // Don't cache the server response in dev mode
